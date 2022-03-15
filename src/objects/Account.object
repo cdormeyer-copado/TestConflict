@@ -270,6 +270,7 @@
     <fields>
         <fullName>External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
+        <description>Description A/1</description>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>56</length>
