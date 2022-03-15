@@ -262,7 +262,9 @@
     <fields>
         <fullName>External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
+        <description>Description A/1</description>
         <externalId>true</externalId>
+        <inlineHelpText>Test Helptext B/2</inlineHelpText>
         <label>External ID</label>
         <length>56</length>
         <required>false</required>
