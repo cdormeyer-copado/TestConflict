@@ -264,7 +264,6 @@
         <caseSensitive>true</caseSensitive>
         <description>Description A/1</description>
         <externalId>true</externalId>
-        <inlineHelpText>Test Helptext B/2</inlineHelpText>
         <label>External ID</label>
         <length>56</length>
         <required>false</required>
@@ -333,6 +332,14 @@
     <fields>
         <fullName>Site</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Test_Automation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Test Automation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>TickerSymbol</fullName>
