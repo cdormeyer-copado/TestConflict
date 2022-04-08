@@ -290,6 +290,30 @@
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>New_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>New Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test Value 1</fullName>
+                    <default>false</default>
+                    <label>Test Value 1</label>
+                </value>
+                <value>
+                    <fullName>Slash/Slash</fullName>
+                    <default>false</default>
+                    <label>Slash/Slash</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>NumberOfEmployees</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -366,6 +390,22 @@
         <filterScope>Mine</filterScope>
         <label>My Accounts</label>
     </listViews>
+    <recordTypes>
+        <fullName>Competitor</fullName>
+        <active>true</active>
+        <label>Competitor</label>
+        <picklistValues>
+            <picklist>New_Picklist__c</picklist>
+            <values>
+                <fullName>Slash%2FSlash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Value 1</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
