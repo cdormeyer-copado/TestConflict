@@ -413,6 +413,22 @@
         <filterScope>Mine</filterScope>
         <label>My Accounts</label>
     </listViews>
+    <recordTypes>
+        <fullName>Competitor</fullName>
+        <active>true</active>
+        <label>Competitor</label>
+        <picklistValues>
+            <picklist>New_Picklist__c</picklist>
+            <values>
+                <fullName>Slash%2FSlash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test Value 1</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
