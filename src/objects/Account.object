@@ -290,6 +290,30 @@
         <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>New_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>New Picklist</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test Value 1</fullName>
+                    <default>false</default>
+                    <label>Test Value 1</label>
+                </value>
+                <value>
+                    <fullName>Slash/Slash</fullName>
+                    <default>false</default>
+                    <label>Slash/Slash</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>NumberOfEmployees</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
