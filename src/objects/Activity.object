@@ -133,6 +133,11 @@
                     <default>false</default>
                     <label>Animals</label>
                 </value>
+                <value>
+                    <fullName>Vehicles</fullName>
+                    <default>false</default>
+                    <label>Vehicles</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -167,6 +172,36 @@
                     <default>false</default>
                     <label>Dog</label>
                 </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Horse</fullName>
+                    <default>false</default>
+                    <label>Horse</label>
+                </value>
+                <value>
+                    <fullName>Elephant</fullName>
+                    <default>false</default>
+                    <label>Elephant</label>
+                </value>
+                <value>
+                    <fullName>Truck</fullName>
+                    <default>false</default>
+                    <label>Truck</label>
+                </value>
+                <value>
+                    <fullName>Sportscar</fullName>
+                    <default>false</default>
+                    <label>Sportscar</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Colors</controllingFieldValue>
@@ -177,12 +212,36 @@
                 <valueName>Green</valueName>
             </valueSettings>
             <valueSettings>
+                <controllingFieldValue>Colors</controllingFieldValue>
+                <valueName>Yellow</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Colors</controllingFieldValue>
+                <valueName>Red</valueName>
+            </valueSettings>
+            <valueSettings>
                 <controllingFieldValue>Animals</controllingFieldValue>
                 <valueName>Cat</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Animals</controllingFieldValue>
                 <valueName>Dog</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Animals</controllingFieldValue>
+                <valueName>Horse</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Animals</controllingFieldValue>
+                <valueName>Elephant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vehicles</controllingFieldValue>
+                <valueName>Truck</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Vehicles</controllingFieldValue>
+                <valueName>Sportscar</valueName>
             </valueSettings>
         </valueSet>
     </fields>
