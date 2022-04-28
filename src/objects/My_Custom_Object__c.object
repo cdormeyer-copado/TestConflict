@@ -209,6 +209,16 @@
                     <default>false</default>
                     <label>Sportscar</label>
                 </value>
+                <value>
+                    <fullName>Brown</fullName>
+                    <default>false</default>
+                    <label>Brown</label>
+                </value>
+                <value>
+                    <fullName>Black</fullName>
+                    <default>false</default>
+                    <label>Black</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Colors</controllingFieldValue>
@@ -217,6 +227,14 @@
             <valueSettings>
                 <controllingFieldValue>Colors</controllingFieldValue>
                 <valueName>Yellow</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Colors</controllingFieldValue>
+                <valueName>Brown</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Colors</controllingFieldValue>
+                <valueName>Black</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Cars</controllingFieldValue>
@@ -252,7 +270,15 @@
         <picklistValues>
             <picklist>Dependent_Picklist__c</picklist>
             <values>
+                <fullName>Black</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Blue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brown</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -287,7 +313,15 @@
         <picklistValues>
             <picklist>Dependent_Picklist__c</picklist>
             <values>
+                <fullName>Black</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Blue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brown</fullName>
                 <default>false</default>
             </values>
             <values>
