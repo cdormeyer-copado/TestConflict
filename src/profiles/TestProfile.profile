@@ -6954,6 +6954,16 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>My_Custom_Object__c.Controlling_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>My_Custom_Object__c.Dependent_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.AccountId</field>
         <readable>false</readable>
@@ -13481,6 +13491,17 @@
         <layout>EntityMilestone-Object Milestone Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>My_Custom_Object__c-My Custom Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>My_Custom_Object__c-My Custom Object Layout</layout>
+        <recordType>My_Custom_Object__c.RecordType1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>My_Custom_Object__c-My Custom Object Layout</layout>
+        <recordType>My_Custom_Object__c.RecordType2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ProcessException-Process Exception Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -16619,6 +16640,16 @@
         <default>false</default>
         <recordType>Knowledge__kav.Procedure</recordType>
         <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>My_Custom_Object__c.RecordType1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>My_Custom_Object__c.RecordType2</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
