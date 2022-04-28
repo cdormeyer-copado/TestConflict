@@ -326,6 +326,7 @@
         </filters>
         <label>Today&apos;s Agenda</label>
     </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypes>
         <fullName>RecordType1</fullName>
         <active>true</active>
