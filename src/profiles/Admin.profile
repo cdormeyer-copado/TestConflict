@@ -6954,6 +6954,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>My_Custom_Object__c.Controlling_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>My_Custom_Object__c.Dependent_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -8548,6 +8558,17 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>My_Custom_Object__c-My Custom Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>My_Custom_Object__c-My Custom Object Layout</layout>
+        <recordType>My_Custom_Object__c.RecordType1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>My_Custom_Object__c-My Custom Object Layout</layout>
+        <recordType>My_Custom_Object__c.RecordType2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9091,6 +9112,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>MessagingSession</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>My_Custom_Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -10021,6 +10051,16 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Knowledge__kav.Procedure</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>My_Custom_Object__c.RecordType1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>My_Custom_Object__c.RecordType2</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
