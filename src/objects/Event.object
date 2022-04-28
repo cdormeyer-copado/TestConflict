@@ -326,6 +326,16 @@
         </filters>
         <label>Today&apos;s Agenda</label>
     </listViews>
-    <searchLayouts/>
+    <recordTypes>
+        <fullName>RecordType1</fullName>
+        <active>true</active>
+        <label>RecordType1</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>RecordType2</fullName>
+        <active>true</active>
+        <label>RecordType2</label>
+    </recordTypes>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
 </CustomObject>
