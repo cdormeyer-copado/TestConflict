@@ -10,10 +10,20 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
+    <fieldUpdates>
+        <fullName>StandardFIeldUpdate</fullName>
+        <field>BillingCity</field>
+        <formula>&quot;Jena&quot;</formula>
+        <name>StandardFIeldUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
     <rules>
         <fullName>TestWorkflowOnAccount</fullName>
         <actions>
-            <name>SetFieldtrueOnAccount</name>
+            <name>StandardFIeldUpdate</name>
             <type>FieldUpdate</type>
         </actions>
         <active>false</active>
