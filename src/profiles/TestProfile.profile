@@ -13505,10 +13505,7 @@
     <layoutAssignments>
         <layout>ServiceContract-Service Contract Layout</layout>
     </layoutAssignments>
-    <loginHours>
-        <mondayEnd>1080</mondayEnd>
-        <mondayStart>60</mondayStart>
-    </loginHours>
+    <loginHours />
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
