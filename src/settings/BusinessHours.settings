@@ -61,7 +61,7 @@
         <wednesdayStartTime>00:00:00.000Z</wednesdayStartTime>
     </businessHours>
     <businessHours>
-        <active>true</active>
+        <active>false</active>
         <default>false</default>
         <fridayEndTime>00:00:00.000Z</fridayEndTime>
         <fridayStartTime>00:00:00.000Z</fridayStartTime>
