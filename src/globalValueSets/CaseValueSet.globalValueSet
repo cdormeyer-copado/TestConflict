@@ -33,7 +33,6 @@
     <customValue>
         <fullName>Value5</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Value5</label>
     </customValue>
     <masterLabel>CaseValueSet</masterLabel>
