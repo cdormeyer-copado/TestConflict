@@ -16,11 +16,6 @@
         <label>Value3</label>
     </customValue>
     <customValue>
-        <fullName>MissingValue4</fullName>
-        <default>false</default>
-        <label>MissingValue4</label>
-    </customValue>
-    <customValue>
         <fullName>Value5</fullName>
         <default>false</default>
         <label>Value5</label>
