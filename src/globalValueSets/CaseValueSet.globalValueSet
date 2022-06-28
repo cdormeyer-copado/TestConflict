@@ -16,8 +16,24 @@
         <label>Value3</label>
     </customValue>
     <customValue>
+        <fullName>MissingValue4</fullName>
+        <default>false</default>
+        <label>MissingValue4</label>
+    </customValue>
+    <customValue>
+        <fullName>NEWVALUE1</fullName>
+        <default>false</default>
+        <label>NEWVALUE1</label>
+    </customValue>
+    <customValue>
+        <fullName>NEWVALUE2</fullName>
+        <default>false</default>
+        <label>NEWVALUE2</label>
+    </customValue>
+    <customValue>
         <fullName>Value5</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Value5</label>
     </customValue>
     <masterLabel>CaseValueSet</masterLabel>
